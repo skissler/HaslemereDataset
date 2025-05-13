@@ -29,13 +29,12 @@ This dataset captures high-resolution human mobility and interpersonal proximity
 - Total time points: 576
 
 ### Spatial Scope
-- Data restricted to Haslemere (**bounding box**).
 - Pairwise distances computed using the Haversine formula.
 - Only distances ≤50 meters are included.
 
 ### Variables
 
-#### `DataS1.csv` columns:
+#### `HaslemereProximity.csv` columns:
 | Column        | Description                                    |
 |---------------|------------------------------------------------|
 | `time_step`   | Integer time index (0–575)                     |
@@ -43,7 +42,7 @@ This dataset captures high-resolution human mobility and interpersonal proximity
 | `user2_id`    | Anonymized ID of second participant            |
 | `distance_m`  | Distance between participants (meters, int)    |
 
-#### `DataS2.csv` columns:
+#### `TimeConversion.csv` columns:
 | Column        | Description                                    |
 |---------------|------------------------------------------------|
 | `time_step`   | Integer time index                             |
