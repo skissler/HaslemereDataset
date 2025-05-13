@@ -2,15 +2,14 @@
 
 ## Summary
 
-This dataset captures high-resolution human mobility and interpersonal proximity patterns collected from 469 volunteers in the town of Haslemere, UK, over three consecutive days (12–14 October 2017). The data were collected via a custom mobile phone application and processed to produce time-resolved pairwise distance measurements between individuals. The dataset was developed in the context of the BBC Four documentary *Contagion! The BBC Four Pandemic*, and it supports research in infectious disease modeling, human mobility, network epidemiology, and dynamic systems.
+This dataset captures high-resolution human mobility and interpersonal proximity patterns collected from 469 volunteers in the town of Haslemere, UK, over three consecutive days (12–14 October 2017). The data were collected via a custom mobile phone application and processed to produce time-resolved pairwise distance measurements between individuals. The dataset was developed in the context of the BBC Four documentary *Contagion! The BBC Four Pandemic*, and it supports research in infectious disease modeling and human behaviour.
 
 ---
 
 ## Contents
 
-- `DataS1.csv`: Main dataset containing pairwise distances within 50 meters between individuals at 5-minute intervals.
+- `DataS1.csv`: Main dataset containing pairwise distances within 50 metres between individuals at 5-minute intervals.
 - `DataS2.csv`: Mapping of dataset time indices to real-world timestamps (British Summer Time).
-- `simulation_code/`: Scripts for simulating disease transmission using the SEI model described in the associated publication.
 - `README.md`: Metadata and documentation for this dataset.
 - `LICENSE.txt`: Terms of use under the CC BY-NC-ND 4.0 license.
 
@@ -30,7 +29,7 @@ This dataset captures high-resolution human mobility and interpersonal proximity
 - Total time points: 576
 
 ### Spatial Scope
-- Data restricted to Haslemere (GU27 postcode area).
+- Data restricted to Haslemere (**bounding box**).
 - Pairwise distances computed using the Haversine formula.
 - Only distances ≤50 meters are included.
 
@@ -61,7 +60,7 @@ This dataset captures high-resolution human mobility and interpersonal proximity
 - Pairwise distances computed for all user pairs within 50 meters at each time step.
 - Data further used in a simulated SEI model to explore disease transmission dynamics.
 
-For full methodology, see the associated publication and Supplementary Information.
+For full methodology, see the associated publication.
 
 ---
 
