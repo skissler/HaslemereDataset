@@ -49,7 +49,7 @@ This dataset captures high-resolution human mobility and interpersonal proximity
 #### `HaslemereProximity.csv` columns:
 | Column        | Description                                    |
 |---------------|------------------------------------------------|
-| `time_step`   | Integer time index (0–575)                     |
+| `time_step`   | Integer time index (1–576)                     |
 | `user1_id`    | Anonymized ID of first participant             |
 | `user2_id`    | Anonymized ID of second participant            |
 | `distance_m`  | Distance between participants (meters, int)    |
