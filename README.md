@@ -87,8 +87,7 @@ For full methodology, see the associated publication.
 
 ## License
 
-This dataset is released under the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0).  
-See `LICENSE.txt` or [https://creativecommons.org/licenses/by-nc-nd/4.0/](https://creativecommons.org/licenses/by-nc-nd/4.0/)
+This dataset is released under the GNU General Public License Version 3.0 (see `LICENSE`).  
 
 ---
 
