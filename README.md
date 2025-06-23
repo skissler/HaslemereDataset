@@ -60,28 +60,6 @@ This dataset captures high-resolution human mobility and interpersonal proximity
 | `time_step`   | Integer time index                             |
 | `timestamp`   | Corresponding timestamp in BST (YYYY-MM-DD HH:MM:SS) |
 
----
-
-## Methods Summary
-
-- Data collected using the BBC Pandemic mobile app.
-- GPS-derived locations aggregated into 5-minute bins.
-- Missing data imputed using the last known location or inferred home location.
-- Night-time data (23:00–07:00) excluded for privacy.
-- Pairwise distances computed for all user pairs within 50 meters at each time step.
-- Data further used in a simulated SEI model to explore disease transmission dynamics.
-
-For full methodology, see the associated publication.
-
----
-
-## Usage Notes
-
-- Not a complete census of Haslemere residents; represents a sample of adult contacts.
-- Physical barriers (e.g., walls) are not accounted for in distance measurements.
-- Night-time movement is not included.
-- Suitable for studies in dynamic networks, mobility, epidemic simulation, and contact structure.
-- When reusing the data, please cite the associated Data Descriptor and acknowledge the BBC Pandemic project.
 
 ---
 
