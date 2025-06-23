@@ -73,7 +73,7 @@ This dataset is released under the GNU General Public License Version 3.0 (see `
 
 Please cite as:
 
-> Kissler SM, Klepac P, Tang M, Conlan AJ, Gog JR. (2025). *The Haslemere Human Mobility and Proximity Dataset*. Nature Scientific Data. DOI: [TBD]
+> Kissler SM, Klepac P, Tang M, Conlan AJ, Fry H., Gog JR. (2025). *The Haslemere Dataset: Fine-scale human mobility and proximity data collected via mobile phones in a UK town*. 
 
 ---
 
@@ -81,5 +81,5 @@ Please cite as:
 
 For questions or issues regarding this dataset, please contact:  
 Stephen M. Kissler  
-Email: sk792@cam.ac.uk
+Email: stephen.kissler@colorado.edu
 
