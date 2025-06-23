@@ -2,7 +2,9 @@
 
 ## Summary
 
-This dataset captures high-resolution human mobility and interpersonal proximity patterns collected from 469 volunteers in the town of Haslemere, UK, over three consecutive days (12–14 October 2017). The data were collected via a custom mobile phone application and processed to produce time-resolved pairwise distance measurements between individuals. The dataset was developed in the context of the BBC Four documentary *Contagion! The BBC Four Pandemic*, and it supports research in infectious disease modeling and human behaviour.
+This dataset captures high-resolution human mobility and interpersonal proximity patterns collected from 469 volunteers in the town of Haslemere, UK, over three consecutive days (12–14 October 2017). The data were collected via a custom mobile phone application and processed to produce time-resolved pairwise distance measurements between individuals. The dataset was developed in the context of the BBC Four documentary *Contagion! The BBC Four Pandemic*, and it supports research in infectious disease modeling and human behaviour. Full details on data collection and processing can be found in the associated publication: 
+
+> Kissler SM, Klepac P, Tang M, Conlan AJ, Fry H., Gog JR. (2025). *The Haslemere Dataset: Fine-scale human mobility and proximity data collected via mobile phones in a UK town*. 
 
 ---
 
